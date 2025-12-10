@@ -3,6 +3,7 @@ import { buildLoaders } from "./buildLoaders";
 import { buildResolvers } from "./buildResolvers";
 import { BuildOptions } from "./types/config";
 import { buildPlugins } from "./buildPlugins";
+import { buildDevServer } from "./buildDevServer";
 
 export const buildWebpackConfig = (
   options: BuildOptions
@@ -22,5 +23,6 @@ export const buildWebpackConfig = (
     },
     plugins: buildPlugins(options),
     devtool: "inline-source-map",
+    devServer: buildDevServer(options),
   };
 };
