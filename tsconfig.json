@@ -5,7 +5,7 @@
     "module": "es6",
     "target": "es5",
     "baseUrl": ".",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true, // позволяет с коммон js работать как с обычными, позволяет работать с модулями которые используем 
@@ -13,7 +13,8 @@
   },
   "ts-node": {
     "compilerOptions": {
-      "module": "CommonJS"
+      "module": "CommonJS",
+       
     }
   }
 }
