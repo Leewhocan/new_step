@@ -6,15 +6,15 @@ import { buildPlugins } from "./buildPlugins";
 import { buildDevServer } from "./buildDevServer";
 
 export const buildWebpackConfig = (
-  options: BuildOptions
+  options: BuildOptions,
 ): webpack.Configuration => {
-  const { mode, paths } = options;
-  const isDev = mode === "development";
+  const { mode, paths, isDev } = options;
+
   return {
     mode: mode,
     entry: paths.entry,
     module: {
-      rules: buildLoaders(),
+      rules: buildLoaders(options),
     },
     resolve: buildResolvers(),
     output: {
