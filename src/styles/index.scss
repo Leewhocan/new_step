@@ -1,3 +1,8 @@
+@use "reset";
+@use "variables/global";
+@use "themes/dark";
+@use "themes/normal";
+
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +10,10 @@
 }
 
 .app {
-  font-size: 30px;
+  font: var(--font-m);
+
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+
+  min-height: 100vh;
 }
