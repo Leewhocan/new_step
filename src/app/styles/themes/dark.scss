@@ -1,6 +1,25 @@
 .app.dark {
-  --bg-color: #0e0e75;
+  /* Основные (ваши) */
+  --bg-color: #0f172a;
+  --inverted-bg-color: #fff5f0;
+  --primary-color: #4ade80;
+  --secondary-color: #22d3ee;
 
-  --primary-color: #049604;
-  --secondary-color: #04ff04;
+  --inverted-primary-color: #ff6b6b;
+  --inverted-color: #ffb347;
+
+  /* Дополнительные */
+  --bg-secondary: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --accent-mint: #4ade80;
+  --accent-lavender: #c084fc;
+  --success: #4ade80;
+  --warning: #facc15;
+  --error: #f87171;
+  --info: #38bdf8;
+  --gradient-primary: linear-gradient(135deg, #4ade80, #22d3ee);
+  --gradient-aurora: linear-gradient(135deg, #4ade80, #2dd4bf, #22d3ee);
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4);
 }

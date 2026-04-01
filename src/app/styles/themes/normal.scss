@@ -1,6 +1,28 @@
 :root {
-  --bg-color: #e8e8ea;
+  /* Основные (ваши) */
+  --bg-color: #fff5f0;
+  --inverted-bg-color: #2d2b2c;
+  --primary-color: #ff6b6b;
+  --secondary-color: #ffb347;
 
-  --primary-color: #041c65;
-  --secondary-color: #0453ff;
+  --inverted-primary-color: #4ade80;
+  --inverted-secondary-color: #22d3ee;
+
+  /* Дополнительные (для гибкости) */
+  --bg-secondary: #ffffff;
+  --text-primary: #2d2b2c;
+  --text-secondary: #5e5b5c;
+  --accent-mint: #6cbfb5;
+  --accent-lavender: #b4a5d9;
+  --success: #6cbfb5;
+  --warning: #ffb347;
+  --error: #ff6b6b;
+  --info: #b4a5d9;
+  --gradient-primary: linear-gradient(135deg, #ff6b6b, #ffb347);
+  --gradient-aurora: linear-gradient(135deg, #6cbfb5, #b4a5d9);
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
 }
